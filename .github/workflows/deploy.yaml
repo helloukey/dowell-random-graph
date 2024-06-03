@@ -17,6 +17,12 @@ jobs:
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+        - name: Get Code
+          uses: actions/checkout@v4
+        - name: Setup NodeJS
+          uses: actions/setup-node@v4
+          with:
+            node-version: 20
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
