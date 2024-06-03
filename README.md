@@ -57,3 +57,7 @@ The project utilizes the Redux Toolkit for state management, replacing the older
 - **Utility-First Framework**: Provides low-level utility classes.
 - **Customization**: Easy to customize to match the project design.
 - **Responsive Design**: Built-in support for responsive design principles.
+
+## Rechart
+
+- **Beautiful Area Chart** - Generates beautiful area charts using random points list.
