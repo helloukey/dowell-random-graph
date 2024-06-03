@@ -1,6 +1,7 @@
 {
   "name": "dowell-random-graph",
   "version": "0.1.0",
+  "homepage": "https://github.com/helloukey/dowell-random-graph",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
