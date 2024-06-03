@@ -23,6 +23,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
+          name: build
   deploy:
     needs: build
     # Only deploy for the main branch
